@@ -15,7 +15,7 @@ import org.hibernate.validator.constraints.NotBlank;
 @Table(name = "SETOR")
 public class SetorModel {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int idSetor;
 	
 	@NotBlank
