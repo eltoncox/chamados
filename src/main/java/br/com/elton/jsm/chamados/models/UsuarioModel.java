@@ -36,7 +36,7 @@ import br.com.elton.jsm.chamados.types.TpUsuarioType;
 @Table(name = "USUARIO")
 public class UsuarioModel {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idUsuario;
 	
 	@NotBlank

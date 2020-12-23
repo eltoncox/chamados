@@ -18,4 +18,13 @@ public class GenerateDatabase {
 		em.close();
 		emf.close();
 	}
+	
+	/**
+		iniciar o servidor hsqldb ..:  
+		C:\ambiente\projeto\hsqldb> java -cp hsqldb.jar org.hsqldb.Server
+	
+	
+		C:\ambiente\projeto\hsqldb> java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
+		
+	*/
 }

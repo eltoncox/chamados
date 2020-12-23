@@ -24,7 +24,7 @@ import br.com.elton.jsm.chamados.types.StChamadoType;
 @Table(name = "CHAMADO")
 public class ChamadoModel {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idChamado;
 	
 	@NotBlank

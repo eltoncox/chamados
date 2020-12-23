@@ -22,7 +22,7 @@ import br.com.elton.jsm.chamados.types.StChamadoType;
 @Table(name = "ACOMPANHAMENTO")
 public class AcompanhamentoModel {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idAcompanhamento;
 	
 	@ManyToOne()
